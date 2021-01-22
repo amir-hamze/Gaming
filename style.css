@@ -1,0 +1,24 @@
+
+h1 {
+  font-size: 60px;
+  color: orange;
+  text-align: center;
+  font-family: fantasy;
+  font-style: italic;
+}
+h2 {
+  color: orange;
+  font-weight: 50;
+  font-size: 25px;
+  font-family: fantasy;
+  font-style: italic;
+  text-indent: 35px;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+html {
+  background-image: url("https://www.pcclean.io/wp-content/gallery/pubg-hd-wallpapers/981012.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+}
