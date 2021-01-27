@@ -1,3 +1,72 @@
+body, html {
+height: 100vh;
+margin: 0;
+font-family: 'Montserrat', sans-serif;
+color: #FAD869;
+font-size: 16px;
+}
+
+
+
+.parallax {
+  background-image: url("https://image.downhdwalls.com/photos/1024x768/pubg-5k-9510320-1024x768.jpg");
+  min-height: 600px;
+  position: relative;
+  opacity: 0.74;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax1 {
+  background-image: url("https://image.downhdwalls.com/photos/1024x768/pubg-poster-art-4k-12959271-1024x768.jpg");
+  min-height: 600px;
+  position: relative;
+  opacity: 0.74;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
+  opacity: 0.99;
+}
+
+.videowrapper {
+  position: relative;
+  padding-bottom: 56%;
+  padding-top: 0;
+  height: 0px;
+}
+
+.videowrapper iframe {
+  position: absolute;
+  left: 10%;
+  top: 25%;
+  right: 10%;
+  bottom: 0%;
+  height: 70%;
+  width: 80%;
+}
+
+.videowrapper iframe {
+  border: 1px solid orange;
+  box-shadow: 4px 5px 3px rgba(0,0,0, 0.5);
+}
+
+.headerbox {
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  padding: 5px 0;
+  background-color: #FAD869;
+  border-top: 1px solid orange;
+  border-bottom: 1px solid orange;
+}
 
 h1 {
   font-size: 60px;
@@ -5,20 +74,112 @@ h1 {
   text-align: center;
   font-family: fantasy;
   font-style: italic;
+  text-shadow: 4px 5px 3px rgba(0,0,0, 0.5);
 }
+
+.emoji {
+  position: relative;
+  opacity: 0.99;
+}
+
+.infobox1 {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  color: #FAD869;
+}
+
+.infobox2 {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  color: #FAD869;
+}
+
+.textbox1 {
+  padding: 25px 200px;
+  text-align: justify;
+  background-color:#FAD869;
+  border-top: 1px solid orange;
+  border-bottom: 1px solid orange;
+}
+
+.textbox2 {
+  padding: 25px 200px;
+  text-align: justify;
+  background-color:#FAD869;
+  border-top: 1px solid orange;
+  border-bottom: 1px solid orange;
+}
+
 h2 {
   color: orange;
   font-weight: 50;
-  font-size: 25px;
+  font-size: 30px;
   font-family: fantasy;
   font-style: italic;
-  text-indent: 35px;
-  text-align: left;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 1px;
+  text-shadow: 0.5px 0.5px 0.5px rgba(0,0,0, 0.5);
+}
+
+h3 {
+  color: orange;
+  font-weight: 50;
+  font-size: 30px;
+  font-family: fantasy;
+  font-style: italic;
+  letter-spacing: 1px;
+  text-align: center;
+  text-shadow: 0.5px 0.5px 0.5px rgba(0,0,0, 0.5);
+}
+
+h4 {
+  color: orange;
+  font-weight: 50;
+  font-size: 40px;
+  font-family: fantasy;
+  font-style: italic;
+  letter-spacing: 1px;
+  text-align: center;
+  text-shadow: 4px 5px 3px rgba(0,0,0, 0.5);
+}
+
+h5 {
+  color: orange;
+  font-weight: 50;
+  font-size: 30px;
+  font-family: fantasy;
+  font-style: italic;
+  letter-spacing: 1px;
+  text-align: center;
+  text-shadow: 4px 5px 3px rgba(0,0,0, 0.5);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+p {
+  color: orange;
+  text-indent: 20px;
+  line-height: 1.7;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  text-shadow: 0.5px 0.5px 0.5px rgba(0,0,0, 0.5);
   letter-spacing: 1px;
 }
 
-html {
-  background-image: url("https://www.pcclean.io/wp-content/gallery/pubg-hd-wallpapers/981012.jpg");
-background-size: 100%;
-background-repeat: no-repeat;
+/* Stänger av effekten på smartphones och surfplattor */
+@media only screen and (max-device-width: 1024px) {
+.bakgrundsbild1, .bakgrundsbild2, .bakgrundsbild3 {
+background-attachment: scroll;
+}
 }
