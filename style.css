@@ -1,15 +1,62 @@
 body, html {
 height: 100vh;
 margin: 0;
-font-family: 'Montserrat', sans-serif;
-color: #FAD869;
+font-family: 'Nova Square';
+color: #E00156;
 font-size: 16px;
 }
 
 
+* {
+  box-sizing: border-box;
+  margin: auto;
+  padding: 0;
+}
+
+
+li, a {
+  font-family: 'Nova Square';
+  font-weight: 500;
+  font-size: 20px;
+  color: orange;
+  text-decoration: none;
+}
+
+header {
+  background: linear-gradient(#e66465, #9198e5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  border-top: 1px solid orange;
+  border-bottom: 1px solid orange;
+}
+
+.logo {
+  cursor: pointer;
+  opacity: 0.99;
+  width: 100px;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s
+}
+
+.nav__links li a:hover {
+  color: #0088a9;
+}
 
 .parallax {
-  background-image: url("https://image.downhdwalls.com/photos/1024x768/pubg-5k-9510320-1024x768.jpg");
+  background-image: url("logo/wallpaper.jpg");
   min-height: 600px;
   position: relative;
   opacity: 0.74;
@@ -19,8 +66,40 @@ font-size: 16px;
   background-size: cover;
 }
 
+h6 {
+  color: orange;
+  font-weight: 50;
+  font-size: 30px;
+  font-family: 'Nova Square';
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 1px;
+  text-shadow: 0.5px 0.5px 0.5px rgba(0,0,0, 0.5);
+}
+
+.infobox3, h6, p {
+  width: 90%;
+}
+
+.infobox3 {
+  background-position: center;
+  background-color:;
+  background: linear-gradient(
+    to right bottom,
+    rgba(145, 152, 229, 0.7),
+    rgba(145, 152, 229, 0.5)
+    );
+    width: 40%;
+    margin-left: 5%;
+    top: 20%;
+    bottom: auto;
+    position: absolute;
+    border-radius: 20px;
+    flex: auto;
+}
+
 .parallax1 {
-  background-image: url("https://image.downhdwalls.com/photos/1024x768/pubg-poster-art-4k-12959271-1024x768.jpg");
+  background-image: url("logo/pubg-wallpaper.jpg");
   min-height: 600px;
   position: relative;
   opacity: 0.74;
@@ -58,39 +137,28 @@ font-size: 16px;
   box-shadow: 4px 5px 3px rgba(0,0,0, 0.5);
 }
 
-.headerbox {
-  width: 100%;
-  text-align: center;
-  font-size: 50px;
-  padding: 5px 0;
-  background-color: #FAD869;
-  border-top: 1px solid orange;
-  border-bottom: 1px solid orange;
-}
+
 
 h1 {
   font-size: 60px;
   color: orange;
   text-align: center;
-  font-family: fantasy;
+  font-family: nova;
   font-style: italic;
   text-shadow: 4px 5px 3px rgba(0,0,0, 0.5);
 }
 
-.emoji {
-  position: relative;
-  opacity: 0.99;
-}
 
 .infobox1 {
   position: absolute;
-  left: 0;
-  top: 30%;
-  width: 100%;
+  right: 0;
+  top: 25%;
   text-align: center;
+  width: 50%;
   font-size: 30px;
-  color: #FAD869;
+  color: ;
 }
+
 
 .infobox2 {
   position: absolute;
@@ -105,7 +173,7 @@ h1 {
 .textbox1 {
   padding: 25px 200px;
   text-align: justify;
-  background-color:#FAD869;
+  background: linear-gradient(#e66465, #9198e5);
   border-top: 1px solid orange;
   border-bottom: 1px solid orange;
 }
@@ -113,7 +181,7 @@ h1 {
 .textbox2 {
   padding: 25px 200px;
   text-align: justify;
-  background-color:#FAD869;
+  background: linear-gradient(#e66465, #9198e5);
   border-top: 1px solid orange;
   border-bottom: 1px solid orange;
 }
@@ -122,8 +190,7 @@ h2 {
   color: orange;
   font-weight: 50;
   font-size: 30px;
-  font-family: fantasy;
-  font-style: italic;
+  font-family: 'Nova Square';
   text-decoration: none;
   text-align: center;
   letter-spacing: 1px;
@@ -134,8 +201,7 @@ h3 {
   color: orange;
   font-weight: 50;
   font-size: 30px;
-  font-family: fantasy;
-  font-style: italic;
+  font-family: 'Nova Square';
   letter-spacing: 1px;
   text-align: center;
   text-shadow: 0.5px 0.5px 0.5px rgba(0,0,0, 0.5);
@@ -145,8 +211,7 @@ h4 {
   color: orange;
   font-weight: 50;
   font-size: 40px;
-  font-family: fantasy;
-  font-style: italic;
+  font-family: 'Nova Square';
   letter-spacing: 1px;
   text-align: center;
   text-shadow: 4px 5px 3px rgba(0,0,0, 0.5);
@@ -156,8 +221,7 @@ h5 {
   color: orange;
   font-weight: 50;
   font-size: 30px;
-  font-family: fantasy;
-  font-style: italic;
+  font-family: 'Nova Square';
   letter-spacing: 1px;
   text-align: center;
   text-shadow: 4px 5px 3px rgba(0,0,0, 0.5);
@@ -171,7 +235,7 @@ p {
   color: orange;
   text-indent: 20px;
   line-height: 1.7;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Nova Square';
   text-align: center;
   text-shadow: 0.5px 0.5px 0.5px rgba(0,0,0, 0.5);
   letter-spacing: 1px;
